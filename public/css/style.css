@@ -1,0 +1,55 @@
+body{
+    color:  #26262d;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+
+header{
+    color: red;
+}
+.div a{
+    padding: 3px;
+    color: rgb(37, 41, 41);
+    text-decoration: none; 
+    /* border: 1px solid red; */
+    height: 60px;
+    margin-bottom: 20px;
+    width: 100px;
+    margin-block: 30px;
+}
+h1{
+    font-size: 42px;
+}
+.about{
+    justify-content: center;
+}
+img{
+width: 250px;
+height: 250px;
+object-position: center;
+object-fit: cover;
+border-radius: 10px;
+} 
+
+input{
+ border: 1px solid #cccccc;
+ padding: 8px;
+}
+
+button{
+    color: white;
+    border: #888888;
+    background: #888888;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+/* https://cdn.dribbble.com/userupload/9745588/file/original-75ee0ad604cd78d220b32090ce8499e4.png?resize=752x */

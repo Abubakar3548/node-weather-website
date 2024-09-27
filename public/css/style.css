@@ -1,19 +1,29 @@
+
+
 body{
     color:  #26262d;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center; */
+    /* text-align: center; */
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 650px;
 }
 .main-content{
-    flex-grow: 1;
+    /* flex-grow: 1; */
+}
+footer{
+    border-top: 1px solid #eeeeee;
+    margin-top: 6px;
+    padding: 16px, 0;
+    color: #888888;
+    /* margin-top: 100px; */
+
 }
 
-header{
-    color: red;
-}
 .div a{
     padding: 3px;
     color: rgb(37, 41, 41);
@@ -37,11 +47,15 @@ object-position: center;
 object-fit: cover;
 border-radius: 10px;
 } 
+form{
+    /* margin-bottom: 100px; */
+}
 
 input{
  border: 1px solid #cccccc;
  padding: 8px;
  margin-top: 0px;
+ font-family: ;
  
 }
 

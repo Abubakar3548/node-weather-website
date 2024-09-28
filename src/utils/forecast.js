@@ -1,4 +1,5 @@
 
+
 // Goal: Create a reusable function for getting the forecast
 // 1. Setup the "forecast" function in utils/forecast.js
 // 2. Require the function in app.js and call it as shown below
@@ -22,7 +23,8 @@
      }else if(body.error){
      callback('Unable to find location. Try another Search', undefined)
      } else{
-        callback(undefined, body.current.weather_descriptions[0] + '. it is currently ' + body.current.temperature + ' degrees out. There is a ' + body.current.feelslike + '% chance of rain')
+      // console.log(body.weather_descriptions[0])
+        callback(undefined, body.current.weather_descriptions[0] + '. it is currently ' + body.current.temperature + ' degrees out. it feels like' + body.current.feelslike + 'dgree out. The humidity is ' +  body.current.humidity +' % ' )
      }
     })
 
